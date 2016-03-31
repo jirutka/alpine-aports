@@ -3,7 +3,7 @@
 pkgname=pytest
 _pkgname=pytest
 pkgver=2.6.1
-pkgrel=0
+pkgrel=1
 pkgdesc="A python test library"
 url="http://pytest.org"
 arch="noarch"
