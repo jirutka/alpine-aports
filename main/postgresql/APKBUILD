@@ -166,7 +166,7 @@ pltcl() {
 		usr/share/postgresql/extension/pltcl*
 
 	install -D -m644 "$srcdir"/pltcl_create_table_template.psql \
-		"$pkgdir"usr/share/postgresql || return 1
+		"$subpkgdir"/usr/share/postgresql || return 1
 }
 
 plperl() {
